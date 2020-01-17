@@ -14,6 +14,7 @@ body {
     flex-flow: row;
     align-items: center;
     justify-content: flex-end;
+    padding-top: 10px;
 }
 
 .nav-column {
@@ -22,7 +23,7 @@ body {
     display: flex;
     flex-flow: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     padding: 0px 10px;
 }
 
@@ -80,7 +81,7 @@ h5 a {
 }
 
 .header-sponsor {
-    padding: 0px 4px;
+    padding: 0px 15px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -105,21 +106,25 @@ h5 a {
 }
 
 .header-sponsor-icon {
-    background-color: saddlebrown;
+    /*background-color: saddlebrown;*/
     height: 23px;
     width: 23PX;
+    padding-right: 5px;
 }
 
 .header-sponsor-icon-mint {
     background: url(../img/mint-icon.svg);
+    background-repeat: no-repeat;
 }
 
 .header-sponsor-icon-quickbooks {
     background: url(../img/quickbooks-icon.svg);
+    background-repeat: no-repeat;
 }
 
 .header-sponsor-icon-turbotax {
     background: url(../img/tax-icon.svg);
+    background-repeat: no-repeat;
 }
 
 section {
@@ -137,11 +142,41 @@ section p {
 }
 
 .form-container {
-    background-color: yellow;
-    border: 1px solid;
     height: auto;
-    width: 450PX;
+    background-color: #fff;
+    border: 1px solid #c7c7c7;
+    border-bottom: none;
+    margin: auto;
+    padding: 30px;
+    width: 380px;
+    font-size: 14px;
+    border-radius: 2px;
 }
+.form-container h1{    
+    text-align: center;
+    padding-bottom: 30px;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+    display: block;
+}
+.form-container h3{    
+    text-align: center;
+    padding-bottom: 30px;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+    display: block;
+}
+.form-container h5{    
+    text-align: center;
+    padding-bottom: 30px;
+    color: #4C4C4C;
+    line-height: 1.1;
+    font-size: 24px;
+    display: block;
+}
+
 
 .reCAPTCHA-container {
     background-color: blueviolet;
