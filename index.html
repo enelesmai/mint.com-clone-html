@@ -8,8 +8,7 @@
     <title>HTML Forms Microverse</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,600,700" rel="stylesheet">
 
 </head>
@@ -17,8 +16,16 @@
 <body>
     <nav>
         <div class="nav-container">
-            <div class="nav-column"></div>
-            <div class="nav-column"></div>
+            <div class="nav-column nav-column-right">
+                <p class="text-nav-account">Already have an Intuit account</p>
+                <p class="text-nav-account"><a href="#">I forgot my User ID or Password</a></p>
+            </div>
+            <div class="nav-column">
+                <button type="button" class="sign-in-btn">
+                    <i class="fas fa-lock"></i>
+                    <span>Sign In</span>
+                </button>
+            </div>
         </div>
     </nav>
     <main>
@@ -26,52 +33,65 @@
             <div class="header-logo-container">
                 <div class="header-logo"></div>
             </div>
-            <div class="header-icons-container">
-                <div class="header-sponsor"></div>
-                <div class="header-sponsor"></div>
-                <div class="header-sponsor"></div>
+            <div class="header-sponsored">
+                <div class="header-icons-container">
+                    <div class="header-sponsor">
+                        <div class="header-sponsor-icon header-sponsor-icon-mint"></div>
+                        <div class="header-sponsor-mint"></div>
+                    </div>
+                    <div class="header-sponsor">
+                        <div class="header-sponsor-icon header-sponsor-icon-quickbooks"></div>
+                        <div class="header-sponsor-quickbooks"></div>
+                    </div>
+                    <div class="header-sponsor">
+                        <div class="header-sponsor-icon header-sponsor-icon-turbotax"></div>
+                        <div class="header-sponsor-turbotax"></div>
+                    </div>
+                </div>
             </div>
-
         </header>
 
         <section>
             <div class="form-container">
-                <h1>Create an Intuit account</h1>
-                <h3>One account for everything Intuit, including Mint.</h3>
-                <h5>Learn more</h5>
-                <div class="input-container">
-                    <div class="input-label">
-                        <label for="Email">Email</label>
+                <h1 class="form-title">Create an Intuit account</h1>
+                <h3 class="form-description">One account for everything Intuit, including Mint.</h3>
+                <h5 class="text-nav-account">
+                    <a href="#">Learn more</a>
+                </h5>
+                <form>
+                    <div class="input-container">
+                        <div class="input-label">
+                            <label for="Email">Email</label>
+                        </div>
+                        <div class="input-textbox">
+                            <input type="email" name="txtEmail">
+                        </div>
                     </div>
-                    <div class="input-textbox">
-                        <input type="email" name="txtEmail">
+                    <div class="input-container">
+                        <div class="input-label">
+                            <label for="Phone">Phone</label>
+                        </div>
+                        <div class="input-textbox">
+                            <input type="number" name="txtPhone">
+                        </div>
                     </div>
-                </div>
-                <div class="input-container">
-                    <div class="input-label">
-                        <label for="Phone">Phone</label>
+                    <div class="input-container">
+                        <div class="input-label">
+                            <label for="Password">Password</label>
+                        </div>
+                        <div class="input-textbox">
+                            <input type="password" name="txtPassword">
+                        </div>
                     </div>
-                    <div class="input-textbox">
-                        <input type="number" name="txtPhone">
+                    <div class="button-container">
+                        <div class="button-create">
+                            <button type="submit">Create Account</button>
+                        </div>
                     </div>
-                </div>
-                <div class="input-container">
-                    <div class="input-label">
-                        <label for="Password">Password</label>
-                    </div>
-                    <div class="input-textbox">
-                        <input type="password" name="txtPassword">
-                    </div>
-                </div>
-                <div class="button-container">
-                    <div class="button-create">
-                        <button type="submit">Create Account</button>
-                    </div>
-                </div>
+                </form>
                 <div class="terms-privacy-container">
                     <p>
-                        By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge
-                        our <a href="#"> Privacy Statement.</a>
+                        By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#"> Privacy Statement.</a>
                     </p>
                 </div>
             </div>
@@ -86,9 +106,7 @@
     </main>
     <footer>
         <p>Legal Privacy Security</p>
-        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered
-            trademarks of Intuit Inc.
-            Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
 
 </body>
