@@ -284,6 +284,13 @@ footer p {
   border-radius: 2px;
 }
 
+.recaptcha-main-container{
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
 @media all and (max-width: 768px) {
   nav {
     display: none;
