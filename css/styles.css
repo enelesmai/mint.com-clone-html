@@ -253,11 +253,11 @@ section p {
 }
 
 footer {
-  font-family: AvenirNext, Avenir, Helvetica Neue, Helvetica, Arial sans-serif;
+  font-family: Arial sans-serif;
   height: auto;
   padding: 30px 10px;
   width: 90%;
-  font-family: 'Roboto', sans-serif;
+  
 }
 
 footer p {
