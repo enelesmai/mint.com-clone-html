@@ -184,11 +184,10 @@ section p {
 
 .form-container h3 {
   text-align: center;
-  padding-bottom: 30px;
+  padding: 0 0 30px 0;
   color: #4c4c4c;
   line-height: 1.1;
   font-size: 14px;
-  display: block;  
 }
 
 .form-container h5 {
