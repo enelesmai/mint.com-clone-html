@@ -20,7 +20,6 @@ time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -57,3 +56,5 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* end of reset */

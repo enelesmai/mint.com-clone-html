@@ -188,8 +188,7 @@ section p {
   color: #4c4c4c;
   line-height: 1.1;
   font-size: 14px;
-  display: block;
-  padding-bottom: 0;
+  display: block;  
 }
 
 .form-container h5 {
@@ -292,4 +291,4 @@ footer p {
   }
 }
 
-/*end of css style*/
+/* end of css style */
