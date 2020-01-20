@@ -266,6 +266,7 @@ footer p {
 }
 
 .legal a {
+    padding: 0px 6px;
     color: #505050;
     text-decoration-line: none;
 }
