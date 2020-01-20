@@ -61,18 +61,18 @@
                 <form>
                     <div class="input-container">
                         <div class="input-label">
-                            <label for="Email">Email</label>
+                            <label for="Email">Email address</label>
                         </div>
                         <div class="input-textbox">
-                            <input type="email" name="txtEmail">
+                            <input type="email" name="txtEmail" class="form-control">
                         </div>
                     </div>
                     <div class="input-container">
                         <div class="input-label">
-                            <label for="Phone">Phone</label>
+                            <label for="Phone">Phone (recommended)</label>
                         </div>
                         <div class="input-textbox">
-                            <input type="number" name="txtPhone">
+                            <input type="number" name="txtPhone" class="form-control">
                         </div>
                     </div>
                     <div class="input-container">
@@ -80,17 +80,20 @@
                             <label for="Password">Password</label>
                         </div>
                         <div class="input-textbox">
-                            <input type="password" name="txtPassword">
+                            <input type="password" name="txtPassword" class="form-control">
                         </div>
                     </div>
                     <div class="button-container">
                         <div class="button-create">
-                            <button type="submit">Create Account</button>
+                            <button class="create-account-btn" type="submit">
+                                <i class="fas fa-lock"></i>
+                                <span>Create Account</span>
+                            </button>
                         </div>
                     </div>
                 </form>
                 <div class="terms-privacy-container">
-                    <p>
+                    <p class="text-nav-account cursiva">
                         By clicking Create account, you agree to our <a href="#">Terms</a> and have read and acknowledge our <a href="#"> Privacy Statement.</a>
                     </p>
                 </div>
@@ -99,14 +102,14 @@
         <section>
             <aside>
                 <div class="reCAPTCHA-container">
-                    <p>Invisible reCAPTCHA by Google Privacy Policy and Terms of Use.</p>
+                    <p class="text-nav-account">Invisible reCAPTCHA by Google <a href="#">Privacy Policy</a> and <a href="#">Terms</a> of Use.</p>
                 </div>
             </aside>
         </section>
     </main>
     <footer>
-        <p>Legal Privacy Security</p>
-        <p>© 2019 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+        <p class="text-nav-account">Legal Privacy Security</p>
+        <p class="text-nav-account">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc. Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
     </footer>
 
 </body>
