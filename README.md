@@ -13,7 +13,7 @@
 
 You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/html-forms
 
-![screenshot](./img/screem-site-1.png)
+![screenshot](./img/screem-site.png)
 
 ## Built With
 
